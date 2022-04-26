@@ -12,6 +12,9 @@ function blob_fixup() {
         vendor/lib64/camera/components/com.mi.node.watermark.so )
             $PATCHELF --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
+            sed -ni '/ozoaudio/!p' "${2}"
+            ;;
     esac
 }
 
