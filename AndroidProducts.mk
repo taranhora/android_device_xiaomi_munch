@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_munch.mk
+    $(LOCAL_DIR)/xtended_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_munch-user \
-    spark_munch-userdebug \
-    spark_munch-eng
+    xtended_munch-user \
+    xtended_munch-userdebug \
+    xtended_munch-eng

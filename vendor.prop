@@ -38,3 +38,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 # Refresh Rate
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.display.touch.idle.enable=true
+
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8250-AC
